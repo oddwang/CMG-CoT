@@ -31,7 +31,7 @@ Our approach introduces a novel **Confidence-based Metric ($F_c$)** and a **Conf
 To address the high computational cost of existing perturbation-based metrics, we propose $F_c$, which measures the confidence shift in model predictions pre- and post-reasoning.
 
 <div align="center">
-  <img src="faithfulness_metric.jpg" alt="Faithfulness Metric" width="60%">
+  <img src="faithfulness_metric.jpg" alt="Faithfulness Metric" width="50%">
   <br>
   <em>Figure 1: Illustration of the calculation pipeline for the proposed faithfulness metric $F_c$.</em>
 </div>
@@ -42,7 +42,7 @@ Our enhancement framework consists of two stages:
 * **Stage 2:** Metric-Guided Selection to select the faithful reasoning chain.
 
 <div align="center">
-  <img src="method_framework.jpg" alt="CMG-CoT Framework" width="60%">
+  <img src="method_framework.jpg" alt="CMG-CoT Framework" width="50%">
   <br>
   <em>Figure 2: The main process of the CMG-CoT method.</em>
 </div>
@@ -93,11 +93,11 @@ python faithfulness_relationship.py --dataset ai2_arc_easy --model_name Llama-3.
   <table>
     <tr>
       <td align="center">
-        <img src="Results/problem_difficulty_adding_mistakes_Llama-3.1-8B-Instruct_ai2_arc_easy.png" width="30%">
+        <img src="Results/problem_difficulty_adding_mistakes_Llama-3.1-8B-Instruct_ai2_arc_easy.png" width="45%">
         <b>RQ1 Analysis:</b> Correlation between Problem Difficulty and Adding Mistakes Metric.
       </td>
       <td align="center">
-        <img src="Results/adding_mistakes_fc_Llama-3.1-8B-Instruct_ai2_arc_easy.png" width="30%">
+        <img src="Results/adding_mistakes_fc_Llama-3.1-8B-Instruct_ai2_arc_easy.png" width="45%">
         <b>RQ2 Analysis:</b> Correlation between Adding Mistakes and our proposed $F_c$ Metric.
       </td>
     </tr>
