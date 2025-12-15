@@ -94,10 +94,12 @@ python faithfulness_relationship.py --dataset ai2_arc_easy --model_name Llama-3.
     <tr>
       <td align="center">
         <img src="Results/problem_difficulty_adding_mistakes_Llama-3.1-8B-Instruct_ai2_arc_easy.png" width="45%">
+        <br>
         <b>RQ1 Analysis:</b> Correlation between Problem Difficulty and Adding Mistakes Metric.
       </td>
       <td align="center">
         <img src="Results/adding_mistakes_fc_Llama-3.1-8B-Instruct_ai2_arc_easy.png" width="45%">
+        <br>
         <b>RQ2 Analysis:</b> Correlation between Adding Mistakes and our proposed $F_c$ Metric.
       </td>
     </tr>
