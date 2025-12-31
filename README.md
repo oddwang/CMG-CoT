@@ -1,4 +1,4 @@
-# CMG-CoT: Efficiently Measuring and Effectively Enhancing Chain-of-Thought Faithfulness via Confidence Modulation
+# CMG-CoT: Efficiently Measuring and Enhancing Chain-of-Thought Faithfulness based on Model Confidence
 
 <div align="center">
 
