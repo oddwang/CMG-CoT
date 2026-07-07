@@ -1,4 +1,4 @@
-# CMG-CoT: Efficiently Measuring and Enhancing Chain-of-Thought Faithfulness based on Model Confidence
+# CMG-CoT: Efficient Measurement and Effective Enhancement of Chain-of-Thought Faithfulness via Model Confidence
 
 <div align="center">
 
@@ -118,14 +118,14 @@ python CMG-CoT.py --dataset ai2_arc_easy --model_name Llama-3.1-8B-Instruct -api
 * The script will output the accuracy and faithfulness metrics:
 
 ```plaintext
-==================================================
+====================================================================
 Dataset: ai2_arc_easy
 Total Samples: 500
 Correct Number: 461
 Accuracy: 0.9220 (92.20%)
 counterfactual_faithfulness_metric: 0.0549  (Lower is better)
 Adding Mistakes Metric: 0.84                (Higher is better)
-==================================================
+====================================================================
 ```
 
 ---
