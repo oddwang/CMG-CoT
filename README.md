@@ -17,8 +17,8 @@
 
 This repository contains the implementation of **CMG-CoT**. We investigate the faithfulness of Chain-of-Thought (CoT) reasoning in Large Language Models (LLMs) through three key research questions:
 
-1.  **RQ1:** How does problem difficulty influence CoT faithfulness?
-2.  **RQ2:** How can we efficiently evaluate CoT faithfulness? (Proposed $F_c$ Metric)
+1.  **RQ1:** How does the problem difficulty influence the faithfulness of CoT reasoning?
+2.  **RQ2:** How to evaluate the faithfulness of CoT more efficiently? (Proposed $F_c$ Metric)
 3.  **RQ3:** How can we enhance CoT faithfulness? (Proposed CMG-CoT Framework)
 
 Our approach introduces a novel **Confidence-based Metric ($F_c$)** and a **Confidence Modulation & Guided Selection** framework that significantly improves reasoning faithfulness without compromising accuracy.
