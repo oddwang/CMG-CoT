@@ -7,7 +7,7 @@
 
  **A comprehensive framework for analyzing and improving the faithfulness of LLMs' reasoning processes.**
 
-[Abstract](#-abstract) • [Methodology](#-methodology) • [Installation](#%EF%B8%8F-installation) • [Usage](#-usage)
+[📖 Abstract](#-abstract) • [🔬 Methodology](#-methodology) • [⚙️ Installation](#%EF%B8%8F-installation) • [🚀 Usage](#-usage)
 
 </div>
 
